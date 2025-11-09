@@ -38,8 +38,9 @@ Ensure the following are installed on your system:
 
 ### 🎥 Demo
 
-- [Video Demo]()  
-- [Live Preview]()  
+- [Figma Design](https://www.figma.com/design/WnHFPfZ7uW2vxy4sHqtb12/MOBILE-WALLPAPER-SELECTOR?node-id=0-1&p=f&t=PR89JrUj7x5b5vNS-0)
+- [Video Demo](https://drive.google.com/file/d/1d03D8NPeELyK4K9WwN--MT3W9hIEQPLc/view?usp=drive_link)  
+- [Live Preview](https://mobile-wallpper-desktop-v2-app-r67h.vercel.app)  
 
 ---
 
