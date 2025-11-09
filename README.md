@@ -1,122 +1,157 @@
 # Wallpaper Studio
 
-> A beautiful, cross-platform wallpaper discovery and management application built with React Native.
+> A sleek, cross-platform wallpaper discovery and management application built with React Native and Expo.
 
 [![React Native/Expo](https://img.shields.io/badge/React%20Native-Expo-blue)](https://expo.dev)
 [![Tauri](https://img.shields.io/badge/Tauri-Desktop-orange)](https://tauri.app)
 
-## 📱 Features
+---
 
-### Core Features
+## 📱 Overview
 
-- **Curated Wallpaper Gallery** - Browse hundreds of beautiful, high-quality wallpapers
-- **Category Organization** - Explore wallpapers by categories (Nature, Abstract, Minimal, etc.)
-- **Favorites System** - Save your favorite wallpapers for quick access
-- **Preview Mode** - See how wallpapers look on your device before setting
+### ✨ Key Features
 
-## 🚀 Quick Start
+- **Curated Wallpaper Library** – Browse a vast selection of high-quality, handpicked wallpapers.  
+- **Category-Based Organization** – Explore wallpapers by themes such as Nature, Abstract, Minimalist, and more.  
+- **Favorites System** – Save your preferred wallpapers for quick and easy access.  
+- **Live Preview** – Preview wallpapers on your device before setting them as background.  
 
-- ![screenhot](./assets//images//desktop-screenshot.PNG)
+---
 
-### Prerequisites
+## 🚀 Getting Started
 
-- **Node.js** 22.x or higher
-- **npm****
-- **Expo** (installed automatically)
-- **For Desktop Builds:**
-  - Windows: Visual Studio Build Tools, Rust, WebView2
+![Screenshot](./assets/images/desktop-screenshot.PNG)
 
-### Demo
+### 🧩 Prerequisites
 
-- [Video]()
-- [Live]()
+Ensure the following are installed on your system:
 
-### Installation
+- **Node.js** v22 or newer  
+- **npm** package manager  
+- **Expo CLI** (automatically installed with dependencies)  
+- **For Desktop Builds (Windows only):**  
+  - Visual Studio Build Tools  
+  - Rust  
+  - WebView2  
+
+---
+
+### 🎥 Demo
+
+- [Video Demo]()  
+- [Live Preview]()  
+
+---
+
+### ⚙️ Installation
 
 ```bash
-# Clone the repository
+# Clone this repository
 git clone https://github.com/Promisead/mobile_wallpper_desktop_v2_app.git
 cd wallpaper-studio
 
-# Install dependencies
+# Install project dependencies
 npm install
 
-# Start the development server
+# Start the development environment
 npm start
 ```
 
-### Running on Different Platforms
+---
+
+### 🧭 Running on Multiple Platforms
 
 ```bash
-# Mobile Development
-npm run android     # Run on Android device/emulator
-npm run ios         # Run on iOS device/simulator (macOS only)
+# Run on Android
+npm run android
 
-# Web Development
-npm run web         # Run in browser
+# Run on iOS (macOS required)
+npm run ios
 
-# Desktop Development
-npm run tauri:dev   # Run as desktop app (requires Rust)
+# Run in the browser
+npm run web
+
+# Run desktop build (requires Rust)
+npm run tauri:dev
 ```
+
+---
 
 ## 🎨 Tech Stack
 
-### Frontend
+### 🌐 Frontend
 
-- **[Expo Typescript](https://expo.dev)** - Universal React Native platform
-- **[React Native](https://reactnative.dev)** - Cross-platform UI framework
-- **[NativeWind](https://www.nativewind.dev)** - Tailwind CSS for React Native
+- **[Expo + TypeScript](https://expo.dev)** – Framework for universal React Native apps.  
+- **[React Native](https://reactnative.dev)** – Core framework for mobile UI development.  
+- **[NativeWind](https://www.nativewind.dev)** – Tailwind CSS integration for React Native styling.  
 
-### Desktop
+### 💻 Desktop
 
-- **[Tauri](https://tauri.app)** - Lightweight desktop framework
-- **[Rust](https://www.rust-lang.org)** - System-level programming
+- **[Tauri](https://tauri.app)** – Lightweight desktop framework for multi-platform apps.  
+- **[Rust](https://www.rust-lang.org)** – System-level programming language powering Tauri.  
 
-## 📦 Building for Production
+---
 
-### Mobile Apps
+## 📦 Production Build
+
+### 📱 Mobile Builds
 
 ```bash
-# iOS (macOS only)
+# iOS (macOS required)
 npm run build:ios
-# Output: iOS App Store build
+# Outputs a build for the Apple App Store
 
 # Android
 npm run build:android
-# Output: APK or AAB for Google Play
+# Outputs APK or AAB for Google Play
 ```
 
-### Web App
+---
+
+### 🌍 Web Build
 
 ```bash
 npm run web:build
-# Output: dist/ folder with static files
-# Deploy to any static hosting (Vercel, Netlify, etc.)
+# Generates static files in the dist/ directory
+# Ready for deployment to Netlify, Vercel, or any static host
 ```
 
-### Desktop Apps
+---
+
+### 🖥️ Desktop Build
 
 ```bash
-# Build for current platform
+# Build desktop version for your OS
 npm run tauri:build
 
-# Output locations:
+# Example output:
 # Windows: src-tauri/target/release/bundle/msi/
 ```
 
+---
+
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
 
-## 👥 Authors
+---
 
-- **Promise Champion** - *Initial work* - [Github](https://github.com/Promisead)
+## 👤 Author
+
+**Promise Champion**  
+*Developer & Project Creator*  
+- [GitHub](https://github.com/Promisead)  
+- [Portfolio](https://ai-promise.vercel.app)
+
+---
 
 ## 🙏 Acknowledgments
 
-- HNG mentors/colleagues
-- Wallpaper images from [Unsplash](https://unsplash.com)
-- UI inspiration from various wallpaper apps
-- Built with [Expo](https://expo.dev) and [Tauri](https://tauri.app)
+- Mentors and peers from **HNG** for continuous guidance.  
+- Wallpaper resources sourced from [Unsplash](https://unsplash.com).  
+- UI inspiration drawn from modern wallpaper applications.  
+- Built using [Expo](https://expo.dev) and [Tauri](https://tauri.app).  
 
-Made with ❤️ by [Promise Champion](https://ai-promise.vercel.app)
+---
+
+> Made with ❤️ by [Promise Champion](https://ai-promise.vercel.app)
