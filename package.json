@@ -8,6 +8,7 @@
     "ios": "expo start --ios",
     "web": "expo start --web --port 8081",
     "web:build": "expo export --platform web",
+      "vercel-build": "npm run web:build",
     "tauri:dev": "tauri dev",
     "tauri:build": "tauri build"
   },
